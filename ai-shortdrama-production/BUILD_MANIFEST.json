@@ -1,0 +1,43 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\audio-replace.md": "036f2c80b6157a4ddf98d6137d966982b52369ae64861644c963c4516de7491d",
+    "references\\capabilities\\complex-setup-base-image.md": "c25e316423f32c13e45ea415939b5bc6c4b225e2f1ceda69e924045d2e22a372",
+    "references\\capabilities\\cover-reference.md": "ee852f3145217c676128646b297d27306292036ea25651f557b896dad2eb37c4",
+    "references\\capabilities\\group-shot-background.md": "dba7116de6c2b7f82e675ec35fa41748046070035f63d8983979eabbf67d8b2d",
+    "references\\capabilities\\insert-shot-separate.md": "20177d8eaa09ba6d50a6bfc04cce805a2ded2b6e76ece3f985e1064df08af8e6",
+    "references\\capabilities\\multi-person-layout.md": "af475882b8e458bce58198b2f6a632498fcdaf23643b1d6d1271877edc0ccf03",
+    "references\\capabilities\\pose-first.md": "d09624c8a07480d6a2396f5616aeaf0c65c111d5814f75388ed20ff503530a50",
+    "references\\capabilities\\prompt-minimalism.md": "e0c57bd76402dd63677b5e612ff0e0c035d9de9a8f7f5226b85d1fdbd7f5dcd9",
+    "references\\capabilities\\resolve-by-reference.md": "53c2d0fc01c41baf0958c08e066b9cd37ed7452943505099fc566961cc67856a",
+    "references\\capabilities\\salvage-frame.md": "027c35ebc4273b135af930c66eefb52bb54f4c6a79448fc28cfc349e0a4e90e8",
+    "references\\capabilities\\tail-frame-handoff.md": "eeb339a19477aaa1ece0860eae261c5ede4ac7610dc3f83afb356131630c9c44",
+    "references\\capabilities\\video-ref-guard.md": "6fa556352bcee76a524dbe7252618da1f56ff03fc8fd576d354c14feaabdc55b",
+    "references\\capabilities\\window-reset.md": "3fef86a1ab66fe341da9cea829a4ce970f426cb313d9cbdf14aacfbc18dad10d",
+    "references\\capability-index.md": "651256c78dc382f6bafcf08fee40d6f6e9a60439ac5d3232bdb0fb2a130b3ead",
+    "references\\cheatsheet.md": "b97bb555c0efc5721b4754b996bd8e6dc9e08679acfab59738a9a7aa536080e6",
+    "references\\glossary.md": "e3b27236f2471fd1937eac41e9d886e762a364430e4c1a3b77bbb839b7753d94",
+    "references\\overview.md": "cc01f8ec3d2382f6b549a5223e875104fc92cb578243d0f5a9bdfd9909bdaf83",
+    "SKILL.md": "574982316fc0de7914a48f09fe408dc620a98cdaaeddb238da8925d83833e9b7"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "ai-video-wuming-method",
+  "bundle_sha256": "621db1f946be4e70bfda06b8194a2075de67d3f9cd20cfa5b0de235ecc11a3b1",
+  "variant": "single",
+  "run_id": "run-20261112-233412-dd50fc",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 13,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
